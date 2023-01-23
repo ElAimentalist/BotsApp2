@@ -1,13 +1,10 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
-
+import { SafeAreaView } from 'react-native';
+import Chats from './src/screens/chats/chat'
+import Footer from './src/components/Footer/Footer';
 export default function App() {
-  return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
-  );
+  return <><Chats/><Footer /></>
 }
 
 const styles = StyleSheet.create({
@@ -17,4 +14,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
   },
+  chatcontainer:{
+    height:2
+  }
 });
