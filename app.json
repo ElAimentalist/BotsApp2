@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "Topchat",
-    "slug": "Topchat",
+    "slug": "top-chat",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -18,16 +18,24 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.topchat.com"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.akshit_tyagi7.topchat"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "2aba717a-7165-427c-9929-770582a070c9"
+      }
+    },
+    "owner": "akshit_tyagi7"
   }
 }

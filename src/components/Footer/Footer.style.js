@@ -12,10 +12,22 @@ export const styles= StyleSheet.create({
             width:'95%',
             marginLeft:'2.5%',
             height:'10%',
-
-            backgroundColor:'blue',
-            opacity:0.2,
-            borderRadius:40,
+            display:'flex',
+            flexDirection:'row',
+            alignItems:'center',
+            paddingLeft:30,
+            backgroundColor:colors.zblack,
+            opacity:1,
+            borderRadius:30,
   
-        }
+        },
+        footimage:{
+            height:42,
+            width:42,
+            marginLeft:25
+
+        },
+        footimage1:{
+            height:42,
+            width:42,}
     });
