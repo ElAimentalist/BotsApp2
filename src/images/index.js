@@ -8,4 +8,14 @@ export const images={
     footchat: require('./images/footericons/chat.png'),
     footmenu: require('./images/footericons/menu.png'),
     footcommunity: require('./images/footericons/communities.png'),
+    payicon:require('./images/paymentscreen/pay.png'),
+    bankicon:require('./images/paymentscreen/bank.png'),
+    addmoneyicon:require('./images/paymentscreen/add.png'),
+    recharge:require('./images/paymentscreen/recharge.png'),
+    flights:require('./images/paymentscreen/flights.png'),
+    metro:require('./images/paymentscreen/metro.png'),
+    movie:require('./images/paymentscreen/movie.png'),
+    more:require('./images/paymentscreen/more.png'),
+    shopping:require('./images/paymentscreen/shopping.png'),
+
 }

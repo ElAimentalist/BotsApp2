@@ -3,6 +3,7 @@ import { createNativeStackNavigator } from "@react-navigation/native-stack";
 
 import Chats from "../screens/chats/Chats";
 import ChatScreen from "../screens/chats/Chat";
+import Paymentscreen from "../screens/payment/payment";
 const Stack = createNativeStackNavigator();
 
 const Navigator = () => {
@@ -14,6 +15,7 @@ const Navigator = () => {
         
         <Stack.Screen name="Chats" component={Chats} />
         <Stack.Screen name="Chat" component={ChatScreen} />
+        <Stack.Screen name="Payment" component={Paymentscreen} />
       </Stack.Navigator>
     </NavigationContainer>
   );
